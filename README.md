@@ -38,10 +38,8 @@ The button is in the menu on every page. The choice is saved in localStorage, so
 ### Sign-in
 
 The form checks the email and the password length. After a successful sign-in we save the email and a name taken from it in localStorage (no password is stored). The menu then shows "Hi, name" and a Sign out button, and the home page greets the user. The user stays signed in after a refresh. Sign out clears the saved data.
-<img width="1920" height="1080" alt="2026-11-18_23-56-41" src="https://github.com/user-attachments/assets/d7b2d51e-5779-412c-a577-7abbe4c68f65" />
-
-<img width="1920" height="1080" alt="2026-11-18_23-57-44" src="https://github.com/user-attachments/assets/7b528aee-1253-4d2f-ac92-636caf12e5e2" />
-
+<img width="1867" height="788" alt="2026-11-19_00-22-43" src="https://github.com/user-attachments/assets/ffdb1de7-c461-4d49-b411-5e3855e8aa88" />
+<img width="1885" height="956" alt="2026-11-19_00-23-09" src="https://github.com/user-attachments/assets/f824cbec-85ad-4004-8f67-d95c410b4710" />
 
 ### FAQ with jQuery
 
