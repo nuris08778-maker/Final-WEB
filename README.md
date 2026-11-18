@@ -30,7 +30,8 @@ Aura Shop is a small multi-page store website. We started it as the midterm (HTM
 
 The button is in the menu on every page. The choice is saved in localStorage, so the theme stays after a refresh.
 
-![Home page, light theme](2026-11-18_23-53-28.png)
+<img width="1157" height="681" alt="photo_5472084263105668638_y" src="https://github.com/user-attachments/assets/6891d6eb-5c80-4be5-8dfe-db49858466af" />
+
 
 ![Home page, dark theme](2026-11-18_23-56-41.png)
 
@@ -48,13 +49,14 @@ The form checks the email and the password length. After a successful sign-in we
 
 Six questions on the home page. A click opens or closes the answer with slideToggle(), and the icon switches between + and -.
 
-![Home page, dark theme](photo_5472084263105668638_y.jpg)
+<img width="1157" height="681" alt="photo_5472084263105668638_y" src="https://github.com/user-attachments/assets/6d095bad-b0c5-4dc2-96ca-12681ec7ddaa" />
+
 
 ### API
 
 The catalog on the products page loads items from DummyJSON (https://dummyjson.com) with fetch(). You can search, pick a category, change the sorting, refresh the list, load more items and open a product to see its details. If a request fails, the page shows an error message with a "Try again" button.
+<img width="1904" height="761" alt="2026-11-19_00-05-10" src="https://github.com/user-attachments/assets/6e0a8df3-d144-46f2-80a5-674e0ab13431" />
 
-![Home page, dark theme](2026-11-19_00-05-10.png)
 
 ### From the endterm
 
