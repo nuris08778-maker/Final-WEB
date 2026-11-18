@@ -30,33 +30,31 @@ Aura Shop is a small multi-page store website. We started it as the midterm (HTM
 
 The button is in the menu on every page. The choice is saved in localStorage, so the theme stays after a refresh.
 
-![Home page, light theme](screenshots/home-light.png)
+![Home page, light theme](2026-11-18_23-53-28.png)
 
-![Home page, dark theme](screenshots/home-dark.png)
+![Home page, dark theme](2026-11-18_23-56-41.png)
 
-![Mobile view](screenshots/mobile.png)
+![Home page, dark theme](2026-11-18_23-57-05.png)
 
 ### Sign-in
 
 The form checks the email and the password length. After a successful sign-in we save the email and a name taken from it in localStorage (no password is stored). The menu then shows "Hi, name" and a Sign out button, and the home page greets the user. The user stays signed in after a refresh. Sign out clears the saved data.
 
-![Sign-in form with validation errors](screenshots/signin.png)
+![Home page, dark theme](2026-11-18_23-57-44.png)
 
-![Menu and home page after signing in](screenshots/signed-in.png)
+![Home page, dark theme](2026-11-18_23-58-33.png)
 
 ### FAQ with jQuery
 
 Six questions on the home page. A click opens or closes the answer with slideToggle(), and the icon switches between + and -.
 
-![FAQ with one open answer](screenshots/faq-open.png)
+![Home page, dark theme](photo_5472084263105668638_y.jpg)
 
 ### API
 
 The catalog on the products page loads items from DummyJSON (https://dummyjson.com) with fetch(). You can search, pick a category, change the sorting, refresh the list, load more items and open a product to see its details. If a request fails, the page shows an error message with a "Try again" button.
 
-![API catalog on the products page](screenshots/api-catalog.png)
-
-![API error message with Try again button](screenshots/api-error.png)
+![Home page, dark theme](2026-11-19_00-05-10.png)
 
 ### From the endterm
 
