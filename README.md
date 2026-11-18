@@ -30,20 +30,18 @@ Aura Shop is a small multi-page store website. We started it as the midterm (HTM
 
 The button is in the menu on every page. The choice is saved in localStorage, so the theme stays after a refresh.
 
-<img width="1157" height="681" alt="photo_5472084263105668638_y" src="https://github.com/user-attachments/assets/6891d6eb-5c80-4be5-8dfe-db49858466af" />
+<img width="1920" height="1080" alt="2026-11-18_23-53-28" src="https://github.com/user-attachments/assets/6109f9ab-72f8-4e15-a04d-e1d50fb80a5c" />
 
+<img width="1920" height="1080" alt="2026-11-18_23-56-41" src="https://github.com/user-attachments/assets/2d072ea8-1a68-48a9-bda5-87982b0bf219" />
 
-![Home page, dark theme](2026-11-18_23-56-41.png)
-
-![Home page, dark theme](2026-11-18_23-57-05.png)
 
 ### Sign-in
 
 The form checks the email and the password length. After a successful sign-in we save the email and a name taken from it in localStorage (no password is stored). The menu then shows "Hi, name" and a Sign out button, and the home page greets the user. The user stays signed in after a refresh. Sign out clears the saved data.
+<img width="1920" height="1080" alt="2026-11-18_23-56-41" src="https://github.com/user-attachments/assets/d7b2d51e-5779-412c-a577-7abbe4c68f65" />
 
-![Home page, dark theme](2026-11-18_23-57-44.png)
+<img width="1920" height="1080" alt="2026-11-18_23-57-44" src="https://github.com/user-attachments/assets/7b528aee-1253-4d2f-ac92-636caf12e5e2" />
 
-![Home page, dark theme](2026-11-18_23-58-33.png)
 
 ### FAQ with jQuery
 
