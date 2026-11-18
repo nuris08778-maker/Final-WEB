@@ -1,13 +1,14 @@
 # Aura Shop
 
-Group: SE-2538
+**Group:** SE-2538
 
-Team:
+**Team:**
+
 - Nursultan Nurislam
 - Sarbasov Ayan
 - Zhanassyl Omar
 
-Topic: online shop with clothes, gadgets and cosmetics.
+**Topic:** online shop with clothes, gadgets and cosmetics.
 
 ## About the project
 
@@ -25,15 +26,41 @@ Aura Shop is a small multi-page store website. We started it as the midterm (HTM
 
 ## What works
 
-Light and dark theme. The button is in the menu on every page. The choice is saved in localStorage, so the theme stays after a refresh.
+### Light and dark theme
 
-Sign-in. The form checks the email and the password length. After a successful sign-in we save the email and a name taken from it in localStorage (no password is stored). The menu then shows "Hi, name" and a Sign out button, and the home page greets the user. The user stays signed in after a refresh. Sign out clears the saved data.
+The button is in the menu on every page. The choice is saved in localStorage, so the theme stays after a refresh.
 
-FAQ with jQuery. Six questions on the home page. A click opens or closes the answer with slideToggle(), and the icon switches between + and -.
+![Home page, light theme](screenshots/home-light.png)
 
-API. The catalog on the products page loads items from DummyJSON (https://dummyjson.com) with fetch(). You can search, pick a category, change the sorting, refresh the list, load more items and open a product to see its details. If a request fails, the page shows an error message with a "Try again" button.
+![Home page, dark theme](screenshots/home-dark.png)
 
-From the endterm: form validation, live product search with category buttons, the CRUD table saved in localStorage, and the gallery with a lightbox.
+![Mobile view](screenshots/mobile.png)
+
+### Sign-in
+
+The form checks the email and the password length. After a successful sign-in we save the email and a name taken from it in localStorage (no password is stored). The menu then shows "Hi, name" and a Sign out button, and the home page greets the user. The user stays signed in after a refresh. Sign out clears the saved data.
+
+![Sign-in form with validation errors](screenshots/signin.png)
+
+![Menu and home page after signing in](screenshots/signed-in.png)
+
+### FAQ with jQuery
+
+Six questions on the home page. A click opens or closes the answer with slideToggle(), and the icon switches between + and -.
+
+![FAQ with one open answer](screenshots/faq-open.png)
+
+### API
+
+The catalog on the products page loads items from DummyJSON (https://dummyjson.com) with fetch(). You can search, pick a category, change the sorting, refresh the list, load more items and open a product to see its details. If a request fails, the page shows an error message with a "Try again" button.
+
+![API catalog on the products page](screenshots/api-catalog.png)
+
+![API error message with Try again button](screenshots/api-error.png)
+
+### From the endterm
+
+Form validation, live product search with category buttons, the CRUD table saved in localStorage, and the gallery with a lightbox.
 
 ## Technologies
 
@@ -56,6 +83,7 @@ js/theme.js
 js/auth.js
 js/faq.js
 js/api.js
+screenshots/
 README.md
 ```
 
